@@ -23,9 +23,10 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    align-items: center;
 }
 .logo-icon{
-    background-color: white;
+    background-color: black;
 }
 .head{
     color: white;
@@ -38,8 +39,11 @@
 
 .nav-button{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 10px;
+}
+.nav-button img{
+    margin-right: 10px;
 }
 .designers-icons{
     margin-top: 10px;
@@ -62,7 +66,10 @@
     text-align: center;
     color: #FFFFFF;
     background-color: black;
-    border-radius: 25px;
+    border-radius: 15px;
+    border-color: black;
+    
+    
     
 }
   
@@ -74,7 +81,7 @@
     background-color: #FFFFFF;
     position: relative;
     min-height: 100vh;
-    max-width: 1260px;
+    max-width: 1250px;
     width: 100%;
     left: 250px;
     
@@ -88,27 +95,49 @@
     margin: 0 auto;
     padding: 0px 20px;
 }
-.form-content{
-    display: flex;
-    justify-content: flex-start;
+.input-box{
+    width: 346px;
+    height: 40px;
+    position: relative;
+    font-size: 14px;
+    line-height: 19px;
+    color: #111111;
+    opacity: 50%;
+    border-radius: 12px;
+    padding-left: 20px;
+    background-color: #F8F8F8;
+
+
 }
-.icons-cont{
-    max-width: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.search-icon{
+    position: absolute;
+    left: 330px;
+    top: 10px;
+
     
 }
 .icons-cont h3{
     color:#FF2288 ;
 }
-
+.icons-cont img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.icons-cont{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    
+}
 .upload-button{
     width: 80px;
-    height: 50px;
+    height: 40px;
 
-    background-color: #F2F2F2;
+    background-color: #FF2288;
     font-size: 16px;
     line-height: 21px;
     color: #222222;
@@ -119,7 +148,7 @@
 
 
 .upload-button:hover{
-    background-color: #FF2288;
+    background-color: white;
 }
 /* .........main_container................ */
 .main_container{
@@ -173,6 +202,27 @@ article img{
     height: 250px;
     
 }
+.filters-box{
+    display: flex;
+    align-items: center;
+}
+.filters-box{
+    width: 80px;
+    height: 35px;
+
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    color: #222222;
+    border-radius: 5px;
+    
+
+}
+
+
+.filters-box:hover{
+    background-color: #FF2288;
+}
 .Load-more-button{
     
 
@@ -189,7 +239,7 @@ article img{
 
 
 .Load-more-button:hover{
-    background-color: purple;
+    background-color: #FF2288;
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
@@ -383,4 +433,56 @@ h4{
 .foot-icons{
     display: flex;
 }
+/* second page */
+.phone-section{
+    display: flex;
+    flex-direction: column;
 
+}
+
+
+
+.phone-info ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.spani{
+  height: 2px;
+  width: 700px;
+ background-color: #FF2288;
+}
+
+
+.title-info ul{
+    
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+.date{
+    margin-right: 80px;
+}
+
+.code{
+    margin-right: 180px;
+
+}
+
+.phone{
+    margin-right: 70px;
+
+}
+
+.price{
+    margin-right: 140px;
+
+}
+
+.quantity{
+    margin-right: 200px;
+
+}
