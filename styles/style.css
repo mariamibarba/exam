@@ -83,7 +83,7 @@
 .container-for-header{
     background-color: #FFFFFF;
     position: relative;
-    max-width: 1200px;
+    max-width: 1040px;
     width: 100%;
     left: 250px;
     
@@ -154,7 +154,7 @@
 }
 /* .........main_container................ */
 .main_container{
-    max-width: 1120px;
+    max-width: 1260px;
     width: 100%;
     margin: 30px auto;
     padding: 0 15px ;
