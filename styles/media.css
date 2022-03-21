@@ -3,8 +3,235 @@
     .sidebar{
         display: none;
     }
+    .container-for-header{
+        background-color: lightblue;
+        max-width: 1024px;
+        width: 100%;
+        margin: 5px auto;
+        padding: 0 15px;
+        left: 0px;
+    }
+    .main_container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 25px ;
+        background-color: #F2F2F2;
+    
+    }
+    .article-content{
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .lego{
+        display: none;
+    }
+    .lego-2{
+        display: none;
+
+    }
+    .lego-second{
+        display: none;
+
+    }
+    .ego-second-2{
+        display: none;
+
+    }
+    .container-for-header{
+        background-color: #FFFFFF;
+        max-width: 1000px;
+        width: 100%;
+        left: 0px;
+    }
+    .Load-more-button{
+        display: flex;
+        justify-content: center;
+        background-color: #F2F2F2;
+        font-size: 16px;
+        line-height: 21px;
+        color: #222222;
+        border-radius: 10px;
+        padding: 10px 50px;
+        margin-left: 380px;
+        
+    
+    }
     
     
+    .Load-more-button:hover{
+        background-color: #FF2288;
+    }
+    .main_containers{
+        max-width: 1000px;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 15px ;
+        background-color: #FAFAFA;
+    }
+    .des-article-cont article{
+        max-width: 105px;
+        width: 100%;
+        height: 100px;
+    }
+    .article-p{
+        display: none;
+    }
+    .article-h3 h3{
+        display: none;
+    }
+    .follow_button {
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color:black;
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 15px;
+        
+    }
+      
+    .follow_button:hover {background-color: #FF2288}
+
+    .grid {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 162px 165px 200px 152px;
+    grid-gap: 20px;
+    grid-template-rows: repeat(10,20px)  ;
+    }
+
+    .grid{
+        justify-content: space-around;
+    }
+    .grid{
+        margin-top: 100px;
+        justify-content: space-around;
+    }
     
 
 }
+@media (max-width:768px){
+    .sidebar{
+        display: none;
+    }
+    .container-for-header{
+        background-color: lightblue;
+        max-width: 1024px;
+        width: 100%;
+        margin: 5px auto;
+        padding: 0 15px;
+        left: 0px;
+    }
+    .main_container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 25px ;
+        background-color: #F2F2F2;
+    
+    }
+    .article-content{
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .lego{
+        display: none;
+    }
+    .lego-2{
+        display: none;
+
+    }
+    .lego-second{
+        display: none;
+
+    }
+    .ego-second-2{
+        display: none;
+
+    }
+    .container-for-header{
+        background-color: #FFFFFF;
+        max-width: 1000px;
+        width: 100%;
+        left: 0px;
+    }
+    .Load-more-button{
+        display: flex;
+        justify-content: center;
+        background-color: #F2F2F2;
+        font-size: 16px;
+        line-height: 21px;
+        color: #222222;
+        border-radius: 10px;
+        padding: 10px 50px;
+        margin-left: 380px;
+        
+    
+    }
+    
+    
+    .Load-more-button:hover{
+        background-color: #FF2288;
+    }
+    .main_containers{
+        max-width: 1000px;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 15px ;
+        background-color: #FAFAFA;
+    }
+    .des-article-cont article{
+        max-width: 105px;
+        width: 100%;
+        height: 100px;
+    }
+    .article-p{
+        display: none;
+    }
+    .article-h3 h3{
+        display: none;
+    }
+    .follow_button {
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color:black;
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 15px;
+        
+    }
+      
+    .follow_button:hover {background-color: #FF2288}
+
+    .grid {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 162px 165px 200px 152px;
+    grid-gap: 20px;
+    grid-template-rows: repeat(10,20px)  ;
+    }
+
+    .grid{
+        justify-content: space-around;
+    }
+    .grid{
+        margin-top: 100px;
+        justify-content: space-around;
+    }
+
+}
+
+
+

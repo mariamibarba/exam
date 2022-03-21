@@ -10,7 +10,7 @@
 }
 .sidebar{
     position:fixed ;
-    height: 800px;
+    height: 100%;
     max-width: 250px;
     width: 100%;
     background-color: black;
@@ -147,9 +147,6 @@
     max-width: 1040px;
     width: 100%;
     left: 250px;
-    
-
-
 }
 .header-content{
     display: flex;
@@ -256,10 +253,6 @@ article p{
 }
 article{
     width: 250px;
-    
-    
-   
-
 }
 article img{
     width: 250px;
