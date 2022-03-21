@@ -330,7 +330,7 @@ h4{
     font-size: 14px;
     color: #222222;
     text-align: center
-    font-family: 'Lato2';
+    
 }
 .design_head h2{
     font-size: 32px;
@@ -376,7 +376,9 @@ h4{
 
 
 }
-
+.follow-all{
+    display: none;
+}
 .des-article-cont article img{
     
     width: 80px;
