@@ -79,6 +79,67 @@
 .nav-button:hover {background-color: #FF2288}
 
 
+.pinkcircle {
+    display: block;
+    background-color: #FF2288;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 30px;
+    top: 3px;
+    position: absolute;
+}
+
+.lego{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    top: 140px;
+    position: absolute;
+    background-color: white;
+    
+}
+.lego:hover{
+    background-color: #FF2288;
+}
+.lego-2{
+     display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    top: 170px;
+    position: absolute;
+    background-color: white;
+}
+.lego-2:hover{
+    background-color: #FF2288;
+}
+.lego-second{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    top: 440px;
+    position: absolute;
+    background-color: white;
+}
+.lego-second:hover{
+    background-color: #FF2288;
+}
+.ego-second-2{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    top: 470px;
+    position: absolute;
+    background-color: white;
+}
+.ego-second-2:hover{
+    background-color: #FF2288;
+}
+
 /* main section container-for-header */
 .container-for-header{
     background-color: #FFFFFF;
