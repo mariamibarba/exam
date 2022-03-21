@@ -272,7 +272,62 @@
     .follow-all-person:hover{
         background-color: #FF2288;
     }
+    /* ......................... */
     
+    
+   
+    
+    td{
+       padding: 20px;
+    }
+    .titles-box td{
+        
+        justify-content: center;
+    }
+    .titles-box{
+        
+        font-size: 18px;
+        line-height: 20px;
+        color: #111111;
+        font-family: 'Lato2';
+    }
+    
+    .phone-list{
+        font-size: 12px;
+        line-height: 18px;
+        color: #AFAFAF;
+        font-family: 'Lato2';
+        
+    }
+    .phone-list:hover{
+        color: #222222;
+        background-color: #F2F2F2;
+        
+    }
+    .dif-phone-list{
+        font-size: 12px;
+        line-height: 28px;
+        color: #FF2288;
+    }
+    .dif-phone-list:hover{
+        color: #FF2288;
+        background-color: #F2F2F2;
+        
+    }
+    .Quantity{
+        display: none;
+    }
+    .Total{
+        display: none;
+
+    }
+    .one{
+
+        display: none;
+    }
+    .price{
+        display: none;
+    }
 
 }
 
