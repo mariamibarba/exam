@@ -179,6 +179,7 @@
 }
 .icons-cont h3{
     color:#FF2288 ;
+   
 }
 .icons-cont img{
     width: 40px;
@@ -243,6 +244,7 @@ li{
 
 article p{
     justify-content: center;
+    font-family: 'Lato2';
 }
 /* images and discription */
 
@@ -272,6 +274,7 @@ article img{
     line-height: 21px;
     color: #222222;
     border-radius: 5px;
+    font-family: 'Lato2';
     
 
 }
@@ -291,6 +294,7 @@ article img{
     padding: 16px 100px;
     margin-left: 420px;
     margin-top: 70px;
+    font-family: 'Lato2';
 
 }
 
@@ -326,6 +330,7 @@ h4{
     font-size: 14px;
     color: #222222;
     text-align: center
+    font-family: 'Lato2';
 }
 .design_head h2{
     font-size: 32px;
@@ -349,14 +354,17 @@ h4{
     display: flex;
     justify-content: center;
     height: 42px;
+    font-family: 'Lato';
 
 }
 .article-p p{
     font-size: 12px;
     margin-top: 5px;
+    font-family: 'Lato2';
 }
 .article-h3 h3{
     font-size: 16px;
+    font-family: 'Lato2';
 }
 
 .article-h3{
@@ -364,6 +372,7 @@ h4{
     justify-content: center;
     margin-top: 20px;
     height: 42px;
+    font-family: 'Lato2';
 
 
 }
@@ -485,6 +494,7 @@ h4{
 .footer-content h5{
     color: #222222;
     font-size: 20px;
+    font-family: 'Lato2';
     
 }
 .foot-icons{
@@ -517,12 +527,14 @@ td{
     font-size: 20px;
     line-height: 24px;
     color: #111111;
+    font-family: 'Lato2';
 }
 
 .phone-list{
     font-size: 16px;
     line-height: 21px;
     color: #AFAFAF;
+    font-family: 'Lato2';
     
 }
 .phone-list:hover{
