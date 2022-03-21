@@ -73,6 +73,7 @@
         padding: 0 15px ;
         background-color: #FAFAFA;
     }
+
     .des-article-cont article{
         max-width: 105px;
         width: 100%;
@@ -173,11 +174,11 @@
     
     }
     .article-content{
-        max-width: 900px;
+        max-width: 768px;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
     .lego{
         display: none;
