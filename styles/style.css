@@ -7,11 +7,11 @@
 .contanire-all{
     max-width: 1300px;
     width: 100%;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 .sidebar{
-    position:fixed ;
-    height: 100%;
+    position: absolute ;
+    height: 800px;
     max-width: 250px;
     width: 100%;
     background-color: black;
@@ -121,7 +121,7 @@
     width: 25px;
     height: 25px;
     margin-left: 25px;
-    top: 440px;
+    top: 370px;
     position: absolute;
     background-color: white;
 }
@@ -133,7 +133,7 @@
     width: 25px;
     height: 25px;
     margin-left: 25px;
-    top: 470px;
+    top: 400px;
     position: absolute;
     background-color: white;
 }
@@ -258,8 +258,8 @@ article{
     width: 250px;
 }
 article img{
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    width: 100%;
     
 }
 .filters-box{
@@ -290,6 +290,7 @@ article img{
 }
 .Load-more-button{
     justify-content: center;
+    margin-top: 50px;
 
     background-color: #F2F2F2;
     font-size: 16px;
@@ -384,15 +385,16 @@ h4{
 }
 .des-article-cont article img{
     
-    width: 80px;
-    height: 80px;
+    max-width: 80px;
+    width: 100%;
+    
 }
 
 .follow_button {
     display: inline-block;
-    /* padding: 15px 25px; */
+    padding: 5px 5px;
     font-size: 24px;
-    /* cursor: pointer; */
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
