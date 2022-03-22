@@ -47,7 +47,14 @@
         width: 100%;
         left: 0px;
     }
-    
+    .designersinformation{
+        display: none;
+
+    }
+    .Load-more{
+        display: flex;
+        justify-content: center;
+    }
     .Load-more-button{
         display: flex;
         justify-content: center;
@@ -57,7 +64,7 @@
         color: #222222;
         border-radius: 10px;
         padding: 10px 50px;
-        justify-content: center;
+        
         
     
     }
@@ -146,15 +153,10 @@
         display: none;
     }
     .filters-box{
-        margin-top: 50px;
-        margin-right: 50px;
+        justify-content: center;
     }
     .list-wrapper{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-decoration: none;
-        list-style: none;
+       display: none;
         
     }
     .container-for-header{
@@ -245,6 +247,10 @@
     }
     .design_head h4{
         display: none;
+    }
+    .designersinformation{
+        display: none;
+
     }
     .design_head h2{
         display: flex;

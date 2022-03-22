@@ -7,6 +7,7 @@
 .contanire-all{
     max-width: 1300px;
     width: 100%;
+    margin: 0 auto;
 }
 .sidebar{
     position:fixed ;
@@ -283,8 +284,12 @@ article img{
 .filters-box:hover{
     background-color: #FF2288;
 }
+.Load-more{
+    display: flex;
+    justify-content: center;
+}
 .Load-more-button{
-    
+    justify-content: center;
 
     background-color: #F2F2F2;
     font-size: 16px;
@@ -292,8 +297,6 @@ article img{
     color: #222222;
     border-radius: 12px;
     padding: 16px 100px;
-    margin-left: 420px;
-    margin-top: 70px;
     font-family: 'Lato2';
 
 }
